@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D478786180FE4A700E0FD5A /* CommMessageFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D478784180FE4A700E0FD5A /* CommMessageFile.h */; };
+		4D478787180FE4A700E0FD5A /* CommMessageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D478785180FE4A700E0FD5A /* CommMessageFile.m */; };
+		4D47878A180FE94C00E0FD5A /* FileTransferHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D478788180FE94C00E0FD5A /* FileTransferHelper.h */; };
+		4D47878B180FE94C00E0FD5A /* FileTransferHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D478789180FE94C00E0FD5A /* FileTransferHelper.m */; };
+		4D47878E181002AB00E0FD5A /* FileInfoEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D47878C181002AA00E0FD5A /* FileInfoEntry.h */; };
+		4D47878F181002AB00E0FD5A /* FileInfoEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D47878D181002AA00E0FD5A /* FileInfoEntry.m */; };
+		4D52DA8E18687E4B0025C021 /* DebugManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D52DA8C18687E4B0025C021 /* DebugManager.h */; };
+		4D52DA8F18687E4B0025C021 /* DebugManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D52DA8D18687E4B0025C021 /* DebugManager.m */; };
+		4D755AF1158B2D5900532927 /* CommMessageSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D755AEF158B2D5900532927 /* CommMessageSettings.h */; };
+		4D755AF2158B2D5900532927 /* CommMessageSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D755AF0158B2D5900532927 /* CommMessageSettings.m */; };
+		4D755AFA15920A4500532927 /* CommMessageEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D755AF815920A4500532927 /* CommMessageEvent.h */; };
+		4D755AFB15920A4500532927 /* CommMessageEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D755AF915920A4500532927 /* CommMessageEvent.m */; };
+		4D87A25614F78CA5005378AD /* CommunicationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D87A25414F78CA5005378AD /* CommunicationService.h */; };
+		4D87A25714F78CA5005378AD /* CommunicationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D87A25514F78CA5005378AD /* CommunicationService.m */; };
+		4D87A25C14F78D46005378AD /* CommMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D87A25A14F78D46005378AD /* CommMessage.h */; };
+		4D87A25D14F78D46005378AD /* CommMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D87A25B14F78D46005378AD /* CommMessage.m */; };
+		4D96779714BC9769002D4C8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D96779614BC9769002D4C8E /* Foundation.framework */; };
+		4D96779D14BC976A002D4C8E /* SensorBoxManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96779C14BC976A002D4C8E /* SensorBoxManager.m */; };
+		4D9677D914BD84F0002D4C8E /* SensorBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D9677D714BD84EF002D4C8E /* SensorBox.h */; };
+		4D9677DA14BD84F0002D4C8E /* SensorBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9677D814BD84F0002D4C8E /* SensorBox.m */; };
+		4D9677E114BD8C2D002D4C8E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D9677E014BD8C2C002D4C8E /* CoreBluetooth.framework */; };
+		4D96781A14BDB4FE002D4C8E /* UUIDHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D96781814BDB4FE002D4C8E /* UUIDHelper.h */; };
+		4D96781B14BDB4FE002D4C8E /* UUIDHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96781914BDB4FE002D4C8E /* UUIDHelper.m */; };
+		4D96781E14BDE8A1002D4C8E /* DeviceInfoService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D96781C14BDE8A1002D4C8E /* DeviceInfoService.h */; };
+		4D96781F14BDE8A1002D4C8E /* DeviceInfoService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96781D14BDE8A1002D4C8E /* DeviceInfoService.m */; };
+		4D96782214BED521002D4C8E /* Service.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D96782014BED521002D4C8E /* Service.h */; };
+		4D96782314BED521002D4C8E /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96782114BED521002D4C8E /* Service.m */; };
+		4D96782614BF13AF002D4C8E /* SensorService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D96782414BF13AE002D4C8E /* SensorService.h */; };
+		4D96782714BF13AF002D4C8E /* SensorService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96782514BF13AE002D4C8E /* SensorService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D478784180FE4A700E0FD5A /* CommMessageFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommMessageFile.h; sourceTree = "<group>"; };
+		4D478785180FE4A700E0FD5A /* CommMessageFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommMessageFile.m; sourceTree = "<group>"; };
+		4D478788180FE94C00E0FD5A /* FileTransferHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileTransferHelper.h; sourceTree = "<group>"; };
+		4D478789180FE94C00E0FD5A /* FileTransferHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileTransferHelper.m; sourceTree = "<group>"; };
+		4D47878C181002AA00E0FD5A /* FileInfoEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileInfoEntry.h; sourceTree = "<group>"; };
+		4D47878D181002AA00E0FD5A /* FileInfoEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileInfoEntry.m; sourceTree = "<group>"; };
+		4D52DA8C18687E4B0025C021 /* DebugManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugManager.h; sourceTree = "<group>"; };
+		4D52DA8D18687E4B0025C021 /* DebugManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DebugManager.m; sourceTree = "<group>"; };
+		4D52DA901869700C0025C021 /* SensorBoxLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorBoxLib.h; sourceTree = "<group>"; };
+		4D755AEF158B2D5900532927 /* CommMessageSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommMessageSettings.h; sourceTree = "<group>"; };
+		4D755AF0158B2D5900532927 /* CommMessageSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommMessageSettings.m; sourceTree = "<group>"; };
+		4D755AF815920A4500532927 /* CommMessageEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommMessageEvent.h; sourceTree = "<group>"; };
+		4D755AF915920A4500532927 /* CommMessageEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommMessageEvent.m; sourceTree = "<group>"; };
+		4D87A25414F78CA5005378AD /* CommunicationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommunicationService.h; sourceTree = "<group>"; };
+		4D87A25514F78CA5005378AD /* CommunicationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommunicationService.m; sourceTree = "<group>"; };
+		4D87A25A14F78D46005378AD /* CommMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommMessage.h; sourceTree = "<group>"; };
+		4D87A25B14F78D46005378AD /* CommMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommMessage.m; sourceTree = "<group>"; };
+		4D96779314BC9769002D4C8E /* libSensorBoxLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSensorBoxLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D96779614BC9769002D4C8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D96779A14BC976A002D4C8E /* SensorBoxLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SensorBoxLib-Prefix.pch"; sourceTree = "<group>"; };
+		4D96779B14BC976A002D4C8E /* SensorBoxManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorBoxManager.h; sourceTree = "<group>"; };
+		4D96779C14BC976A002D4C8E /* SensorBoxManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SensorBoxManager.m; sourceTree = "<group>"; };
+		4D9677D714BD84EF002D4C8E /* SensorBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorBox.h; sourceTree = "<group>"; };
+		4D9677D814BD84F0002D4C8E /* SensorBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorBox.m; sourceTree = "<group>"; };
+		4D9677E014BD8C2C002D4C8E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		4D96781814BDB4FE002D4C8E /* UUIDHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUIDHelper.h; sourceTree = "<group>"; };
+		4D96781914BDB4FE002D4C8E /* UUIDHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUIDHelper.m; sourceTree = "<group>"; };
+		4D96781C14BDE8A1002D4C8E /* DeviceInfoService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoService.h; sourceTree = "<group>"; };
+		4D96781D14BDE8A1002D4C8E /* DeviceInfoService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoService.m; sourceTree = "<group>"; };
+		4D96782014BED521002D4C8E /* Service.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Service.h; sourceTree = "<group>"; };
+		4D96782114BED521002D4C8E /* Service.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Service.m; sourceTree = "<group>"; };
+		4D96782414BF13AE002D4C8E /* SensorService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorService.h; sourceTree = "<group>"; };
+		4D96782514BF13AE002D4C8E /* SensorService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorService.m; sourceTree = "<group>"; };
+		4DC6C108153F0EA900ED6369 /* SensorBoxErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorBoxErrors.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D96779014BC9769002D4C8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9677E114BD8C2D002D4C8E /* CoreBluetooth.framework in Frameworks */,
+				4D96779714BC9769002D4C8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D87A25914F78D18005378AD /* CommMessages */ = {
+			isa = PBXGroup;
+			children = (
+				4D87A25A14F78D46005378AD /* CommMessage.h */,
+				4D87A25B14F78D46005378AD /* CommMessage.m */,
+				4D755AEF158B2D5900532927 /* CommMessageSettings.h */,
+				4D755AF0158B2D5900532927 /* CommMessageSettings.m */,
+				4D755AF815920A4500532927 /* CommMessageEvent.h */,
+				4D755AF915920A4500532927 /* CommMessageEvent.m */,
+				4D478784180FE4A700E0FD5A /* CommMessageFile.h */,
+				4D478785180FE4A700E0FD5A /* CommMessageFile.m */,
+			);
+			name = CommMessages;
+			sourceTree = "<group>";
+		};
+		4D96778814BC9769002D4C8E = {
+			isa = PBXGroup;
+			children = (
+				4D9677E014BD8C2C002D4C8E /* CoreBluetooth.framework */,
+				4D96779814BC976A002D4C8E /* SensorBoxLib */,
+				4D96779514BC9769002D4C8E /* Frameworks */,
+				4D96779414BC9769002D4C8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D96779414BC9769002D4C8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D96779314BC9769002D4C8E /* libSensorBoxLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D96779514BC9769002D4C8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D96779614BC9769002D4C8E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D96779814BC976A002D4C8E /* SensorBoxLib */ = {
+			isa = PBXGroup;
+			children = (
+				4D87A25914F78D18005378AD /* CommMessages */,
+				4D96779914BC976A002D4C8E /* Supporting Files */,
+				4D96779B14BC976A002D4C8E /* SensorBoxManager.h */,
+				4D96779C14BC976A002D4C8E /* SensorBoxManager.m */,
+				4D9677D714BD84EF002D4C8E /* SensorBox.h */,
+				4D9677D814BD84F0002D4C8E /* SensorBox.m */,
+				4D96781814BDB4FE002D4C8E /* UUIDHelper.h */,
+				4D96781914BDB4FE002D4C8E /* UUIDHelper.m */,
+				4D96781C14BDE8A1002D4C8E /* DeviceInfoService.h */,
+				4D96781D14BDE8A1002D4C8E /* DeviceInfoService.m */,
+				4D96782014BED521002D4C8E /* Service.h */,
+				4D96782114BED521002D4C8E /* Service.m */,
+				4D96782414BF13AE002D4C8E /* SensorService.h */,
+				4D96782514BF13AE002D4C8E /* SensorService.m */,
+				4D87A25414F78CA5005378AD /* CommunicationService.h */,
+				4D87A25514F78CA5005378AD /* CommunicationService.m */,
+				4DC6C108153F0EA900ED6369 /* SensorBoxErrors.h */,
+				4D478788180FE94C00E0FD5A /* FileTransferHelper.h */,
+				4D478789180FE94C00E0FD5A /* FileTransferHelper.m */,
+				4D47878C181002AA00E0FD5A /* FileInfoEntry.h */,
+				4D47878D181002AA00E0FD5A /* FileInfoEntry.m */,
+				4D52DA8C18687E4B0025C021 /* DebugManager.h */,
+				4D52DA8D18687E4B0025C021 /* DebugManager.m */,
+				4D52DA901869700C0025C021 /* SensorBoxLib.h */,
+			);
+			path = SensorBoxLib;
+			sourceTree = "<group>";
+		};
+		4D96779914BC976A002D4C8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D96779A14BC976A002D4C8E /* SensorBoxLib-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4D96779114BC9769002D4C8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D9677D914BD84F0002D4C8E /* SensorBox.h in Headers */,
+				4D96781A14BDB4FE002D4C8E /* UUIDHelper.h in Headers */,
+				4D96781E14BDE8A1002D4C8E /* DeviceInfoService.h in Headers */,
+				4D96782214BED521002D4C8E /* Service.h in Headers */,
+				4D96782614BF13AF002D4C8E /* SensorService.h in Headers */,
+				4D87A25614F78CA5005378AD /* CommunicationService.h in Headers */,
+				4D87A25C14F78D46005378AD /* CommMessage.h in Headers */,
+				4D755AF1158B2D5900532927 /* CommMessageSettings.h in Headers */,
+				4D52DA8E18687E4B0025C021 /* DebugManager.h in Headers */,
+				4D755AFA15920A4500532927 /* CommMessageEvent.h in Headers */,
+				4D478786180FE4A700E0FD5A /* CommMessageFile.h in Headers */,
+				4D47878A180FE94C00E0FD5A /* FileTransferHelper.h in Headers */,
+				4D47878E181002AB00E0FD5A /* FileInfoEntry.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D96779214BC9769002D4C8E /* SensorBoxLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D9677A014BC976A002D4C8E /* Build configuration list for PBXNativeTarget "SensorBoxLib" */;
+			buildPhases = (
+				4D96778F14BC9769002D4C8E /* Sources */,
+				4D96779014BC9769002D4C8E /* Frameworks */,
+				4D96779114BC9769002D4C8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SensorBoxLib;
+			productName = SensorBoxLib;
+			productReference = 4D96779314BC9769002D4C8E /* libSensorBoxLib.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D96778A14BC9769002D4C8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 4D96778D14BC9769002D4C8E /* Build configuration list for PBXProject "SensorBoxLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D96778814BC9769002D4C8E;
+			productRefGroup = 4D96779414BC9769002D4C8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D96779214BC9769002D4C8E /* SensorBoxLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D96778F14BC9769002D4C8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D96779D14BC976A002D4C8E /* SensorBoxManager.m in Sources */,
+				4D9677DA14BD84F0002D4C8E /* SensorBox.m in Sources */,
+				4D96781B14BDB4FE002D4C8E /* UUIDHelper.m in Sources */,
+				4D96781F14BDE8A1002D4C8E /* DeviceInfoService.m in Sources */,
+				4D96782314BED521002D4C8E /* Service.m in Sources */,
+				4D96782714BF13AF002D4C8E /* SensorService.m in Sources */,
+				4D87A25714F78CA5005378AD /* CommunicationService.m in Sources */,
+				4D87A25D14F78D46005378AD /* CommMessage.m in Sources */,
+				4D755AF2158B2D5900532927 /* CommMessageSettings.m in Sources */,
+				4D52DA8F18687E4B0025C021 /* DebugManager.m in Sources */,
+				4D755AFB15920A4500532927 /* CommMessageEvent.m in Sources */,
+				4D478787180FE4A700E0FD5A /* CommMessageFile.m in Sources */,
+				4D47878B180FE94C00E0FD5A /* FileTransferHelper.m in Sources */,
+				4D47878F181002AB00E0FD5A /* FileInfoEntry.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4D96779E14BC976A002D4C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D96779F14BC976A002D4C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D9677A114BC976A002D4C8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SensorBoxLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SensorBoxLib/SensorBoxLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		4D9677A214BC976A002D4C8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/SensorBoxLib.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SensorBoxLib/SensorBoxLib-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D96778D14BC9769002D4C8E /* Build configuration list for PBXProject "SensorBoxLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D96779E14BC976A002D4C8E /* Debug */,
+				4D96779F14BC976A002D4C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D9677A014BC976A002D4C8E /* Build configuration list for PBXNativeTarget "SensorBoxLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D9677A114BC976A002D4C8E /* Debug */,
+				4D9677A214BC976A002D4C8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D96778A14BC9769002D4C8E /* Project object */;
+}

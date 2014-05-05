@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['sendmessage_3a',['sendMessage:',['../interface_communication_service.html#a7b0334667ca630191ddf373deadc4fd2',1,'CommunicationService']]],
+  ['sensorbox_3aconnectstatechanged_3a',['sensorBox:connectStateChanged:',['../protocol_sensor_box_delegate-p.html#a3285e6515f0148b3c35ece1857633ada',1,'SensorBoxDelegate-p']]],
+  ['sensorbox_3arssireadcompleted_3a',['sensorBox:rssiReadCompleted:',['../protocol_sensor_box_delegate-p.html#af9af97f433b639142c1537d0bcfd7465',1,'SensorBoxDelegate-p']]],
+  ['sensorbox_3avalueupdated_3acharacteristicuuid_3a',['sensorBox:valueUpdated:characteristicUUID:',['../protocol_service_delegate-p.html#a35980e92ef32d147a978e6b073cc4b4b',1,'ServiceDelegate-p']]],
+  ['sensorboxlistupdated_3a',['sensorBoxListUpdated:',['../protocol_sensor_box_manager_delegate-p.html#a8c0b60e4b961d4c7ccaa7c34e7cb9648',1,'SensorBoxManagerDelegate-p']]],
+  ['setdebuglevel_3a',['setDebugLevel:',['../interface_sensor_box_manager.html#afe09f06eee1b606cbd8cd1048168737c',1,'SensorBoxManager']]],
+  ['setfilenotify_3a',['setFileNotify:',['../interface_communication_service.html#a6c6c1b3118497997a9bcf7545ca1c16f',1,'CommunicationService']]],
+  ['setfinishdiscover',['setFinishDiscover',['../interface_service.html#a9fc3428537a66124ed183871072aad29',1,'Service']]],
+  ['setnotifygpssecondary_3a',['setNotifyGPSSecondary:',['../interface_sensor_service.html#a052796b143d227fea6dc332f91df7dd3',1,'SensorService']]],
+  ['setnotifymovement_3a',['setNotifyMovement:',['../interface_sensor_service.html#ac28235e6d6428ba9acad9dfd8fd98e32',1,'SensorService']]],
+  ['setnotifynavigation_3a',['setNotifyNavigation:',['../interface_sensor_service.html#a48af87adb884ebf513871cbfa0013762',1,'SensorService']]],
+  ['setnotifystatus_3a',['setNotifyStatus:',['../interface_sensor_service.html#adc34b7cf87c994044b61d6c77cb80202',1,'SensorService']]],
+  ['setnotifywithuuidstring_3aenablenotify_3a',['setNotifyWithUUIDString:enableNotify:',['../interface_service.html#a89bfa3506a584a7bf0bc4688e1323e88',1,'Service']]],
+  ['setvalueupdated_3a',['setValueUpdated:',['../interface_service.html#a6647bf228fe2ee7da8e4956bbff61feb',1,'Service']]],
+  ['setvalueupdateerror_3aforcharacteristic_3a',['setValueUpdateError:forCharacteristic:',['../interface_service.html#a8ee56223087556b1a53b0fcaab4ec412',1,'Service']]],
+  ['sharedinstance',['sharedInstance',['../interface_debug_manager.html#a05703abc8ef2fe83c79fe9e59ef70138',1,'DebugManager']]],
+  ['startreadopenfile_3a',['startReadOpenFile:',['../interface_file_transfer_helper.html#af228367ecde1dfeb03bef2802197536c',1,'FileTransferHelper']]],
+  ['startreadopenfile_3aindirectory_3a',['startReadOpenFile:inDirectory:',['../interface_file_transfer_helper.html#acb0b73c772c3185aa1edd54231253b2c',1,'FileTransferHelper']]],
+  ['stringtocbuuid_3a',['StringToCBUUID:',['../interface_u_u_i_d_helper.html#a5ba9d21821a246664731afdaa6987b07',1,'UUIDHelper']]]
+];
