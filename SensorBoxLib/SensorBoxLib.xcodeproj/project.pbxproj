@@ -36,6 +36,8 @@
 		4D96782314BED521002D4C8E /* Service.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96782114BED521002D4C8E /* Service.m */; };
 		4D96782614BF13AF002D4C8E /* SensorService.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D96782414BF13AE002D4C8E /* SensorService.h */; };
 		4D96782714BF13AF002D4C8E /* SensorService.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D96782514BF13AE002D4C8E /* SensorService.m */; };
+		D92E92E31BCD38B10051B6AB /* CBPeripheral_CB.h in Headers */ = {isa = PBXBuildFile; fileRef = D92E92E11BCD38B10051B6AB /* CBPeripheral_CB.h */; settings = {ASSET_TAGS = (); }; };
+		D92E92E41BCD38B10051B6AB /* CBPeripheral_CB.m in Sources */ = {isa = PBXBuildFile; fileRef = D92E92E21BCD38B10051B6AB /* CBPeripheral_CB.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +75,8 @@
 		4D96782414BF13AE002D4C8E /* SensorService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SensorService.h; sourceTree = "<group>"; };
 		4D96782514BF13AE002D4C8E /* SensorService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SensorService.m; sourceTree = "<group>"; };
 		4DC6C108153F0EA900ED6369 /* SensorBoxErrors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SensorBoxErrors.h; sourceTree = "<group>"; };
+		D92E92E11BCD38B10051B6AB /* CBPeripheral_CB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPeripheral_CB.h; sourceTree = "<group>"; };
+		D92E92E21BCD38B10051B6AB /* CBPeripheral_CB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CBPeripheral_CB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +142,8 @@
 				4D96779C14BC976A002D4C8E /* SensorBoxManager.m */,
 				4D9677D714BD84EF002D4C8E /* SensorBox.h */,
 				4D9677D814BD84F0002D4C8E /* SensorBox.m */,
+				D92E92E11BCD38B10051B6AB /* CBPeripheral_CB.h */,
+				D92E92E21BCD38B10051B6AB /* CBPeripheral_CB.m */,
 				4D96781814BDB4FE002D4C8E /* UUIDHelper.h */,
 				4D96781914BDB4FE002D4C8E /* UUIDHelper.m */,
 				4D96781C14BDE8A1002D4C8E /* DeviceInfoService.h */,
@@ -187,6 +193,7 @@
 				4D755AFA15920A4500532927 /* CommMessageEvent.h in Headers */,
 				4D478786180FE4A700E0FD5A /* CommMessageFile.h in Headers */,
 				4D47878A180FE94C00E0FD5A /* FileTransferHelper.h in Headers */,
+				D92E92E31BCD38B10051B6AB /* CBPeripheral_CB.h in Headers */,
 				4D47878E181002AB00E0FD5A /* FileInfoEntry.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +224,7 @@
 		4D96778A14BC9769002D4C8E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 4D96778D14BC9769002D4C8E /* Build configuration list for PBXProject "SensorBoxLib" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -243,6 +250,7 @@
 			files = (
 				4D96779D14BC976A002D4C8E /* SensorBoxManager.m in Sources */,
 				4D9677DA14BD84F0002D4C8E /* SensorBox.m in Sources */,
+				D92E92E41BCD38B10051B6AB /* CBPeripheral_CB.m in Sources */,
 				4D96781B14BDB4FE002D4C8E /* UUIDHelper.m in Sources */,
 				4D96781F14BDE8A1002D4C8E /* DeviceInfoService.m in Sources */,
 				4D96782314BED521002D4C8E /* Service.m in Sources */,
@@ -271,10 +279,14 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -305,9 +317,12 @@
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;

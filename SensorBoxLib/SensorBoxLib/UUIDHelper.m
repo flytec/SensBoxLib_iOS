@@ -46,27 +46,6 @@
 //*************************************************************
 
 
-//! compares two CFUUIDRef's 
-/**
-    @param u1 CFUUIDRef 1 to compare
-    @param u2 CFUUIDRef 2 to compare
-  
-    @returns 1 (equal) 0 (not equal)
-*/
-+ (int) UUIDSAreEqual:(CFUUIDRef)u1 u2:(CFUUIDRef)u2 {
-    if ( u1 && u2 )
-    {
-        CFUUIDBytes b1 = CFUUIDGetUUIDBytes(u1);
-        CFUUIDBytes b2 = CFUUIDGetUUIDBytes(u2);
-        if (memcmp(&b1, &b2, 16) == 0) {
-            return 1;
-        }
-        else return 0;
-    }
-    else return 0;
-}
-
-
 //! Converts CBUUID to a NSString
 /**
     CBUUIDToString converts the data of a CBUUID class to a character pointer for easy printout using printf()

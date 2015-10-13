@@ -13,6 +13,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
+#import "CBPeripheral_CB.h"
 
 
 //! Helper class for handling UUID's
@@ -23,7 +24,6 @@
 */    
 @interface UUIDHelper : NSObject
 
-+ (int) UUIDSAreEqual:(CFUUIDRef)u1 u2:(CFUUIDRef)u2;
 +(NSString*) CBUUIDToString:(CBUUID *) UUID;
 +(NSString*) UUIDToString:(CFUUIDRef)UUID;
 +(int) compareCBUUID:(CBUUID *) UUID1 UUID2:(CBUUID *)UUID2;
